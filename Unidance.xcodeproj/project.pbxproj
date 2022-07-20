@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3036942E27EA48B1004DC08F /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036942D27EA48B1004DC08F /* SensorData.swift */; };
+		3036943027EF6CA5004DC08F /* sessionRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036942F27EF6CA5004DC08F /* sessionRoomViewController.swift */; };
+		3036943227EF76E0004DC08F /* infoEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036943127EF76E0004DC08F /* infoEnterViewController.swift */; };
+		3064A24C27FA632B00C14A2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3064A24B27FA632B00C14A2C /* GoogleService-Info.plist */; };
+		307C5DF627D7CCEE0023A0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5DF527D7CCEE0023A0EC /* AppDelegate.swift */; };
+		307C5DF827D7CCEE0023A0EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5DF727D7CCEE0023A0EC /* SceneDelegate.swift */; };
+		307C5DFA27D7CCEE0023A0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5DF927D7CCEE0023A0EC /* ViewController.swift */; };
+		307C5DFD27D7CCEE0023A0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C5DFB27D7CCEE0023A0EC /* Main.storyboard */; };
+		307C5DFF27D7CCF00023A0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307C5DFE27D7CCF00023A0EC /* Assets.xcassets */; };
+		307C5E0227D7CCF00023A0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C5E0027D7CCF00023A0EC /* LaunchScreen.storyboard */; };
+		307C5E0D27D7CCF00023A0EC /* UnidanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5E0C27D7CCF00023A0EC /* UnidanceTests.swift */; };
+		307C5E1727D7CCF00023A0EC /* UnidanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5E1627D7CCF00023A0EC /* UnidanceUITests.swift */; };
+		307C5E1927D7CCF00023A0EC /* UnidanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5E1827D7CCF00023A0EC /* UnidanceUITestsLaunchTests.swift */; };
+		307C5E2627D7CF4F0023A0EC /* scanBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5E2527D7CF4F0023A0EC /* scanBarcodeViewController.swift */; };
+		307C5E2827D7CF760023A0EC /* createBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5E2727D7CF760023A0EC /* createBarcodeViewController.swift */; };
+		6BEE850FAEF568D849D8BBFE /* Pods_Unidance_UnidanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E6F4703FCF0DD6182CAF5D /* Pods_Unidance_UnidanceUITests.framework */; };
+		75EF9CA72EED1759A243D769 /* Pods_Unidance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3F175A6B58CB1568A13D6E /* Pods_Unidance.framework */; };
+		C114CE985B7F052FF5978B3B /* Pods_UnidanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B1D729C8EB8676147199F2 /* Pods_UnidanceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		307C5E0927D7CCF00023A0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307C5DEA27D7CCEE0023A0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307C5DF127D7CCEE0023A0EC;
+			remoteInfo = Unidance;
+		};
+		307C5E1327D7CCF00023A0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307C5DEA27D7CCEE0023A0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307C5DF127D7CCEE0023A0EC;
+			remoteInfo = Unidance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E0712A000140DD47745599 /* Pods-UnidanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnidanceTests.release.xcconfig"; path = "Target Support Files/Pods-UnidanceTests/Pods-UnidanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		19E6F4703FCF0DD6182CAF5D /* Pods_Unidance_UnidanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unidance_UnidanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		262E54F27507D7EAC72A6737 /* Pods-Unidance-UnidanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidance-UnidanceUITests.release.xcconfig"; path = "Target Support Files/Pods-Unidance-UnidanceUITests/Pods-Unidance-UnidanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3036942D27EA48B1004DC08F /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		3036942F27EF6CA5004DC08F /* sessionRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessionRoomViewController.swift; sourceTree = "<group>"; };
+		3036943127EF76E0004DC08F /* infoEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoEnterViewController.swift; sourceTree = "<group>"; };
+		3064A24B27FA632B00C14A2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		307C5DF227D7CCEE0023A0EC /* Unidance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unidance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C5DF527D7CCEE0023A0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307C5DF727D7CCEE0023A0EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		307C5DF927D7CCEE0023A0EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307C5DFC27D7CCEE0023A0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307C5DFE27D7CCF00023A0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307C5E0127D7CCF00023A0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307C5E0327D7CCF00023A0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307C5E0827D7CCF00023A0EC /* UnidanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnidanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C5E0C27D7CCF00023A0EC /* UnidanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnidanceTests.swift; sourceTree = "<group>"; };
+		307C5E1227D7CCF00023A0EC /* UnidanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnidanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C5E1627D7CCF00023A0EC /* UnidanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnidanceUITests.swift; sourceTree = "<group>"; };
+		307C5E1827D7CCF00023A0EC /* UnidanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnidanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		307C5E2527D7CF4F0023A0EC /* scanBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanBarcodeViewController.swift; sourceTree = "<group>"; };
+		307C5E2727D7CF760023A0EC /* createBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createBarcodeViewController.swift; sourceTree = "<group>"; };
+		30E048CF27FF67740044F937 /* UnidanceDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnidanceDebug.entitlements; sourceTree = "<group>"; };
+		30E048D027FF686E0044F937 /* Unidance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unidance.entitlements; sourceTree = "<group>"; };
+		3CC37413C1715E91C572EEA9 /* Pods-UnidanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnidanceTests.debug.xcconfig"; path = "Target Support Files/Pods-UnidanceTests/Pods-UnidanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3F175A6B58CB1568A13D6E /* Pods_Unidance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unidance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03FFD87CE90A14B5663CD10 /* Pods-Unidance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidance.debug.xcconfig"; path = "Target Support Files/Pods-Unidance/Pods-Unidance.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8D9FB41B2E3C7E01D23343 /* Pods-Unidance-UnidanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidance-UnidanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unidance-UnidanceUITests/Pods-Unidance-UnidanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B1D729C8EB8676147199F2 /* Pods_UnidanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnidanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA8B419E0DD25A1A74B4E04 /* Pods-Unidance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidance.release.xcconfig"; path = "Target Support Files/Pods-Unidance/Pods-Unidance.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307C5DEF27D7CCEE0023A0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF9CA72EED1759A243D769 /* Pods_Unidance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E0527D7CCF00023A0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C114CE985B7F052FF5978B3B /* Pods_UnidanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E0F27D7CCF00023A0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE850FAEF568D849D8BBFE /* Pods_Unidance_UnidanceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307C5DE927D7CCEE0023A0EC = {
+			isa = PBXGroup;
+			children = (
+				307C5DF427D7CCEE0023A0EC /* Unidance */,
+				307C5E0B27D7CCF00023A0EC /* UnidanceTests */,
+				307C5E1527D7CCF00023A0EC /* UnidanceUITests */,
+				307C5DF327D7CCEE0023A0EC /* Products */,
+				9456442E1D323F835E7497B8 /* Pods */,
+				D9FBFCFFCD395B7285BDC316 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		307C5DF327D7CCEE0023A0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307C5DF227D7CCEE0023A0EC /* Unidance.app */,
+				307C5E0827D7CCF00023A0EC /* UnidanceTests.xctest */,
+				307C5E1227D7CCF00023A0EC /* UnidanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C5DF427D7CCEE0023A0EC /* Unidance */ = {
+			isa = PBXGroup;
+			children = (
+				30E048D027FF686E0044F937 /* Unidance.entitlements */,
+				30E048CF27FF67740044F937 /* UnidanceDebug.entitlements */,
+				307C5DF527D7CCEE0023A0EC /* AppDelegate.swift */,
+				307C5DF727D7CCEE0023A0EC /* SceneDelegate.swift */,
+				307C5DF927D7CCEE0023A0EC /* ViewController.swift */,
+				307C5DFB27D7CCEE0023A0EC /* Main.storyboard */,
+				307C5DFE27D7CCF00023A0EC /* Assets.xcassets */,
+				307C5E0027D7CCF00023A0EC /* LaunchScreen.storyboard */,
+				307C5E0327D7CCF00023A0EC /* Info.plist */,
+				307C5E2527D7CF4F0023A0EC /* scanBarcodeViewController.swift */,
+				307C5E2727D7CF760023A0EC /* createBarcodeViewController.swift */,
+				3036942D27EA48B1004DC08F /* SensorData.swift */,
+				3036942F27EF6CA5004DC08F /* sessionRoomViewController.swift */,
+				3036943127EF76E0004DC08F /* infoEnterViewController.swift */,
+				3064A24B27FA632B00C14A2C /* GoogleService-Info.plist */,
+			);
+			path = Unidance;
+			sourceTree = "<group>";
+		};
+		307C5E0B27D7CCF00023A0EC /* UnidanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				307C5E0C27D7CCF00023A0EC /* UnidanceTests.swift */,
+			);
+			path = UnidanceTests;
+			sourceTree = "<group>";
+		};
+		307C5E1527D7CCF00023A0EC /* UnidanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				307C5E1627D7CCF00023A0EC /* UnidanceUITests.swift */,
+				307C5E1827D7CCF00023A0EC /* UnidanceUITestsLaunchTests.swift */,
+			);
+			path = UnidanceUITests;
+			sourceTree = "<group>";
+		};
+		9456442E1D323F835E7497B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A03FFD87CE90A14B5663CD10 /* Pods-Unidance.debug.xcconfig */,
+				EDA8B419E0DD25A1A74B4E04 /* Pods-Unidance.release.xcconfig */,
+				AD8D9FB41B2E3C7E01D23343 /* Pods-Unidance-UnidanceUITests.debug.xcconfig */,
+				262E54F27507D7EAC72A6737 /* Pods-Unidance-UnidanceUITests.release.xcconfig */,
+				3CC37413C1715E91C572EEA9 /* Pods-UnidanceTests.debug.xcconfig */,
+				11E0712A000140DD47745599 /* Pods-UnidanceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9FBFCFFCD395B7285BDC316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F175A6B58CB1568A13D6E /* Pods_Unidance.framework */,
+				19E6F4703FCF0DD6182CAF5D /* Pods_Unidance_UnidanceUITests.framework */,
+				C5B1D729C8EB8676147199F2 /* Pods_UnidanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307C5DF127D7CCEE0023A0EC /* Unidance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C5E1C27D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "Unidance" */;
+			buildPhases = (
+				5CD355A4DCA2E25FA101D11A /* [CP] Check Pods Manifest.lock */,
+				307C5DEE27D7CCEE0023A0EC /* Sources */,
+				307C5DEF27D7CCEE0023A0EC /* Frameworks */,
+				307C5DF027D7CCEE0023A0EC /* Resources */,
+				2865F7CD0D4639F5680C7D08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unidance;
+			productName = Unidance;
+			productReference = 307C5DF227D7CCEE0023A0EC /* Unidance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		307C5E0727D7CCF00023A0EC /* UnidanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C5E1F27D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "UnidanceTests" */;
+			buildPhases = (
+				D398C606D6AE8AE1DF79F2E1 /* [CP] Check Pods Manifest.lock */,
+				307C5E0427D7CCF00023A0EC /* Sources */,
+				307C5E0527D7CCF00023A0EC /* Frameworks */,
+				307C5E0627D7CCF00023A0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307C5E0A27D7CCF00023A0EC /* PBXTargetDependency */,
+			);
+			name = UnidanceTests;
+			productName = UnidanceTests;
+			productReference = 307C5E0827D7CCF00023A0EC /* UnidanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		307C5E1127D7CCF00023A0EC /* UnidanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C5E2227D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "UnidanceUITests" */;
+			buildPhases = (
+				F1809D9A573102BFDEE57932 /* [CP] Check Pods Manifest.lock */,
+				307C5E0E27D7CCF00023A0EC /* Sources */,
+				307C5E0F27D7CCF00023A0EC /* Frameworks */,
+				307C5E1027D7CCF00023A0EC /* Resources */,
+				2750724225F9446A89ABF4D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307C5E1427D7CCF00023A0EC /* PBXTargetDependency */,
+			);
+			name = UnidanceUITests;
+			productName = UnidanceUITests;
+			productReference = 307C5E1227D7CCF00023A0EC /* UnidanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		307C5DEA27D7CCEE0023A0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					307C5DF127D7CCEE0023A0EC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					307C5E0727D7CCF00023A0EC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 307C5DF127D7CCEE0023A0EC;
+					};
+					307C5E1127D7CCF00023A0EC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 307C5DF127D7CCEE0023A0EC;
+					};
+				};
+			};
+			buildConfigurationList = 307C5DED27D7CCEE0023A0EC /* Build configuration list for PBXProject "Unidance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 307C5DE927D7CCEE0023A0EC;
+			productRefGroup = 307C5DF327D7CCEE0023A0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307C5DF127D7CCEE0023A0EC /* Unidance */,
+				307C5E0727D7CCF00023A0EC /* UnidanceTests */,
+				307C5E1127D7CCF00023A0EC /* UnidanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307C5DF027D7CCEE0023A0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C5E0227D7CCF00023A0EC /* LaunchScreen.storyboard in Resources */,
+				3064A24C27FA632B00C14A2C /* GoogleService-Info.plist in Resources */,
+				307C5DFF27D7CCF00023A0EC /* Assets.xcassets in Resources */,
+				307C5DFD27D7CCEE0023A0EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E0627D7CCF00023A0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E1027D7CCF00023A0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2750724225F9446A89ABF4D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unidance-UnidanceUITests/Pods-Unidance-UnidanceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unidance-UnidanceUITests/Pods-Unidance-UnidanceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unidance-UnidanceUITests/Pods-Unidance-UnidanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2865F7CD0D4639F5680C7D08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unidance/Pods-Unidance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unidance/Pods-Unidance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unidance/Pods-Unidance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD355A4DCA2E25FA101D11A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unidance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D398C606D6AE8AE1DF79F2E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnidanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1809D9A573102BFDEE57932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unidance-UnidanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307C5DEE27D7CCEE0023A0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3036943027EF6CA5004DC08F /* sessionRoomViewController.swift in Sources */,
+				3036943227EF76E0004DC08F /* infoEnterViewController.swift in Sources */,
+				307C5DFA27D7CCEE0023A0EC /* ViewController.swift in Sources */,
+				307C5DF627D7CCEE0023A0EC /* AppDelegate.swift in Sources */,
+				307C5E2827D7CF760023A0EC /* createBarcodeViewController.swift in Sources */,
+				307C5E2627D7CF4F0023A0EC /* scanBarcodeViewController.swift in Sources */,
+				307C5DF827D7CCEE0023A0EC /* SceneDelegate.swift in Sources */,
+				3036942E27EA48B1004DC08F /* SensorData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E0427D7CCF00023A0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C5E0D27D7CCF00023A0EC /* UnidanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C5E0E27D7CCF00023A0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C5E1927D7CCF00023A0EC /* UnidanceUITestsLaunchTests.swift in Sources */,
+				307C5E1727D7CCF00023A0EC /* UnidanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		307C5E0A27D7CCF00023A0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307C5DF127D7CCEE0023A0EC /* Unidance */;
+			targetProxy = 307C5E0927D7CCF00023A0EC /* PBXContainerItemProxy */;
+		};
+		307C5E1427D7CCF00023A0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307C5DF127D7CCEE0023A0EC /* Unidance */;
+			targetProxy = 307C5E1327D7CCF00023A0EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		307C5DFB27D7CCEE0023A0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307C5DFC27D7CCEE0023A0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		307C5E0027D7CCF00023A0EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307C5E0127D7CCF00023A0EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		307C5E1A27D7CCF00023A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		307C5E1B27D7CCF00023A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		307C5E1D27D7CCF00023A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03FFD87CE90A14B5663CD10 /* Pods-Unidance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Unidance/UnidanceDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWTJU2A46F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Unidance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniDance;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ZWTJU2A46F.dbasman.Unidance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		307C5E1E27D7CCF00023A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA8B419E0DD25A1A74B4E04 /* Pods-Unidance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Unidance/Unidance.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWTJU2A46F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Unidance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniDance;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ZWTJU2A46F.dbasman.Unidance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		307C5E2027D7CCF00023A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC37413C1715E91C572EEA9 /* Pods-UnidanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbasman.UnidanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unidance.app/Unidance";
+			};
+			name = Debug;
+		};
+		307C5E2127D7CCF00023A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E0712A000140DD47745599 /* Pods-UnidanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbasman.UnidanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unidance.app/Unidance";
+			};
+			name = Release;
+		};
+		307C5E2327D7CCF00023A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8D9FB41B2E3C7E01D23343 /* Pods-Unidance-UnidanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWTJU2A46F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbasman.UnidanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unidance;
+			};
+			name = Debug;
+		};
+		307C5E2427D7CCF00023A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262E54F27507D7EAC72A6737 /* Pods-Unidance-UnidanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWTJU2A46F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbasman.UnidanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unidance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307C5DED27D7CCEE0023A0EC /* Build configuration list for PBXProject "Unidance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C5E1A27D7CCF00023A0EC /* Debug */,
+				307C5E1B27D7CCF00023A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C5E1C27D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "Unidance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C5E1D27D7CCF00023A0EC /* Debug */,
+				307C5E1E27D7CCF00023A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C5E1F27D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "UnidanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C5E2027D7CCF00023A0EC /* Debug */,
+				307C5E2127D7CCF00023A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C5E2227D7CCF00023A0EC /* Build configuration list for PBXNativeTarget "UnidanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C5E2327D7CCF00023A0EC /* Debug */,
+				307C5E2427D7CCF00023A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 307C5DEA27D7CCEE0023A0EC /* Project object */;
+}

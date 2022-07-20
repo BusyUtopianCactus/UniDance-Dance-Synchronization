@@ -1,0 +1,6 @@
+framework module Pods_Unidance_UnidanceUITests {
+  umbrella header "Pods-Unidance-UnidanceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
